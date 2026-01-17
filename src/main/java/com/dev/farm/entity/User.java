@@ -19,11 +19,8 @@ public class User implements UserDetails {
     @Id
     private Long id;
 
-    @Column(name = "username")
-    @JoinColumn(unique = true)
     private String username;
 
-    @Column(name = "password")
     private String password;
 
 
